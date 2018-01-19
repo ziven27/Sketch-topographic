@@ -1,17 +1,24 @@
 {
+  "name" : "UI Struct",
+  "identifier" : "",
+  "description" : "Display Topographic Information",
+  "version" : "1.1",
+  "author" : "ziven27",
+  "homePage": "https://github.com/ziven27/UI-Struct",
+  "authorEmail" : "heartstar27@qq.com",
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Show Struct",
+      "identifier": "showStruct",
+      "script": "UI-struct.js"
     }
   ],
   "menu": {
     "title": "UI-Struct",
     "items": [
-      "my-command-identifier"
+      "showStruct"
     ]
   }
 }
