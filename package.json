@@ -1,8 +1,8 @@
 {
   "name": "ui-struct",
-  "version": "0.1.0",
-  "description" : "Display Topographic Information",
-  "repository":"git@github.com:ziven27/UI-Struct.git",
+  "version": "1.0.0",
+  "description": "Display Topographic Information",
+  "repository": "git@github.com:ziven27/UI-Struct.git",
   "engines": {
     "sketch": ">=3.0"
   },
