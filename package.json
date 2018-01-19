@@ -3,6 +3,7 @@
   "version": "1.0",
   "description" : "Display Topographic Information",
   "repository":"git@github.com:ziven27/UI-Struct.git",
+  "tags": ["struct"],
   "engines": {
     "sketch": ">=3.0"
   },
