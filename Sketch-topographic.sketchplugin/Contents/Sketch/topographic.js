@@ -65,12 +65,11 @@ var exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 3:
+/******/ ([
+/* 0 */
 /***/ (function(module, exports) {
 
 Object.defineProperty(exports, "__esModule", {
@@ -423,8 +422,7 @@ App.prototype.copyThisGroup = function (group) {
 };
 
 /***/ })
-
-/******/ });
+/******/ ]);
   if (key === 'default' && typeof exports === 'function') {
     exports(context);
   } else {

@@ -1,6 +1,6 @@
 {
-  "name": "ui-struct",
-  "version": "1.0.0",
+  "name": "Sketch-topographic",
+  "version": "1.1.0",
   "description": "Display Topographic Information",
   "repository": "git@github.com:ziven27/UI-Struct.git",
   "author" : "ziven27",
@@ -8,9 +8,9 @@
     "sketch": ">=3.0"
   },
   "skpm": {
-    "name": "UI Struct",
+    "name": "Sketch-topographic",
     "manifest": "src/manifest.json",
-    "main": "UI Struct.sketchplugin"
+    "main": "Sketch-topographic.sketchplugin"
   },
   "scripts": {
     "build": "skpm-build",

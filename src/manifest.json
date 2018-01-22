@@ -1,5 +1,5 @@
 {
-  "name" : "UI Struct",
+  "name" : "Sketch topographic",
   "identifier" : "",
   "description" : "Display Topographic Information",
   "version" : "1.1",
@@ -10,15 +10,15 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "Show Struct",
-      "identifier": "showStruct",
-      "script": "UI-struct.js"
+      "name": "display topographic information",
+      "identifier": "show",
+      "script": "topographic.js"
     }
   ],
   "menu": {
-    "title": "UI-Struct",
+    "title": "Sketch topographic",
     "items": [
-      "showStruct"
+      "show"
     ]
   }
 }
