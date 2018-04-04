@@ -18,11 +18,19 @@ It is a amazing function. So I try to make a Sketch vision like the wanderful ex
 
 ![sketch-demo](./img/sketch-demo.jpg)
 
-Foreach layers and show the frame with a 'rgba(0,0,0,0.5)' shape. But I ingnore the `symbol` element.
+Foreach layers except the `symbol` element.
+
+`ctrl alt cmd t`:type again and go back 
+
+show the frame with a 'rgba(0,0,0,0.1)' shape
+
+`ctrl alt cmd b`:type again and go back
+
+show the frame with a 'rgba(0,255,255,0.8)' border, 
 
 ## further more
 
-* In our team, we highly recommend that each text should be a shared text style. If there is a text without shared text style the gray shape will turn out to be red('rgba(255,0,0,0.5)'). 
-* When the text layer `Height%lightHeight!=0` the shape is red too. 
+* In our team, we highly recommend that each text should be a shared text style. If there is a text without shared text style the gray shape or the blue line will turn out to be red. 
+* When the text layer `Height%lightHeight!=0` it is error too. 
 
-Of course you can Ingore all the rule when your element name with a `_` start.
+Of course you can Ingore all the rule when your layer name with a `_` start.
