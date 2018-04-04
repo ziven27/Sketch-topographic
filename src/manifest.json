@@ -1,24 +1,32 @@
 {
-  "name" : "Sketch topographic",
-  "identifier" : "",
-  "description" : "Display Topographic Information",
-  "version" : "1.1",
-  "author" : "ziven27",
-  "homePage": "https://github.com/ziven27/UI-Struct",
-  "authorEmail" : "heartstar27@qq.com",
+  "name": "Sketch topographic",
+  "identifier": "",
+  "description": "Display Topographic Information",
+  "version": "1.2",
+  "author": "ziven27",
+  "homePage": "https://github.com/ziven27/Sketch-topographic",
+  "authorEmail": "ziven27@qq.com",
   "compatibleVersion": 3,
   "bundleVersion": 1,
-  "commands": [
-    {
-      "name": "display topographic information",
-      "identifier": "show",
-      "script": "topographic.js"
-    }
-  ],
+  "commands": [{
+    "name": "BoundingBox/显示边框",
+    "script": "main.js",
+    "shortcut": "ctrl alt cmd b",
+    "identifier": "showBoundingBoxIdentifier",
+    "handler": "showBoundingBox"
+  }, {
+    "name": "Topographic/显示地貌",
+    "script": "main.js",
+    "shortcut": "ctrl alt cmd t",
+    "identifier": "showTopographicIdentifier",
+    "handler": "showTopographic"
+  }],
   "menu": {
-    "title": "Sketch topographic",
+    "title": "Struct/结构",
     "items": [
-      "show"
+      "showBoundingBoxIdentifier",
+      "showTopographicIdentifier",
+      "clearIdentifier"
     ]
   }
 }
