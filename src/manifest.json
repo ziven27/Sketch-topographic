@@ -20,6 +20,12 @@
     "shortcut": "ctrl alt cmd t",
     "identifier": "showTopographicIdentifier",
     "handler": "showTopographic"
+  }, {
+    "name": "clear/清除",
+    "script": "main.js",
+    "shortcut": "ctrl alt cmd z",
+    "identifier": "clearIdentifier",
+    "handler": "clear"
   }],
   "menu": {
     "title": "Struct/结构",

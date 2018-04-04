@@ -123,6 +123,7 @@ app.setTextInfo = function(info, layer) {
 	// 如果行高不存在报错
 	var lineHeight = layer.lineHeight();
 	if (!lineHeight) {
+		info.error = true;
 		info.name = preName + 'No lh';
 		return;
 	}
@@ -130,6 +131,7 @@ app.setTextInfo = function(info, layer) {
 	// 高度不是行高的固定倍数报错
 	var height = layer.frame().height();
 	if (height % lineHeight != 0) {
+		info.error = true;
 		info.name = preName + 'h % lh != 0';
 		return;
 	}
@@ -180,13 +182,13 @@ app.getShapeByData = function(data) {
 	// 设置名字
 	data.name && newShape.setName_(data.name);
 
-	if (data.showType == 0) {
+	if (data.showType == 2) {
 		// 显示地貌
 		var color = (data.error) ? 'rgba(255,0,0,0.2)' : 'rgba(0,0,0,0.1)';
 		_it.setFillColor(newShape, color);
 	} else if (data.showType == 1) {
 		// 显示线框
-		var color = (data.error) ? 'rgba(255,0,0,0.8)' : 'rgba(0,255,255,0.8)';
+		var color = (data.error) ? 'rgba(255,0,0,1)' : 'rgba(0,255,255,0.8)';
 		_it.setBorderColor(newShape, color, 0.5);
 	}
 

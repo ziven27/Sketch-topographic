@@ -8,6 +8,12 @@ function showBoundingBox() {
 
 function showTopographic() {
 	new Common({
+		showType: 2
+	});
+}
+
+function clear() {
+	new Common({
 		showType: 0
 	});
 }
@@ -15,4 +21,5 @@ function showTopographic() {
 export {
 	showBoundingBox,
 	showTopographic,
+	clear,
 };

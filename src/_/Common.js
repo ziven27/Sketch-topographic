@@ -35,11 +35,13 @@ App.prototype.init = function() {
 	}
 
 	// 如果能找到'_fe'文件夹就直接删掉，然后理解为是第二次操作
-	var lastLayer = _utils.getLastLayer(artBoard);
-	var lastLayerName = lastLayer.name();
-	if (lastLayerName == '_fe' + _it.showType) {
-		lastLayer.removeFromParent();
-		return;
+	if (_it.showType == 0) {
+		var lastLayer = _utils.getLastLayer(artBoard);
+		var lastLayerName = lastLayer.name();
+		if (lastLayerName == '_fe') {
+			lastLayer.removeFromParent();
+			return;
+		}
 	}
 
 
@@ -54,9 +56,10 @@ App.prototype.init = function() {
 		var info = _it.getLayerInfo(layer);
 		_it.showShapeByInfo(layer, info);
 	});
-	group.setName('_fe' + _it.showType);
+	group.setName('_fe');
 	group.setIsLocked(true);
 	artBoard.addLayers([group]);
+	// group.setIsSelected(true);
 };
 
 App.prototype.showShapeByInfo = function(layer, info) {
