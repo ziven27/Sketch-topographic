@@ -20,13 +20,17 @@ It is a amazing function. So I try to make a Sketch vision like the wanderful ex
 
 Foreach layers except the `symbol` element.
 
-`ctrl alt cmd t`:type again and go back 
+`ctrl alt cmd t`
 
 show the frame with a 'rgba(0,0,0,0.1)' shape
 
-`ctrl alt cmd b`:type again and go back
+`ctrl alt cmd b`
 
-show the frame with a 'rgba(0,255,255,0.8)' border, 
+show the frame with a 'rgba(0,255,255,0.8)' border
+
+`ctrl alt cmd z`
+
+clear all
 
 ## further more
 
