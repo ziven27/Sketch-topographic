@@ -12,7 +12,7 @@ When you choose the `Display Topographic Information` you can see the struct of 
 
 ![webdevelpoer-demo](./img/webdeveloper-demo.jpg)
 
-It is a amazing function. So I try to make a Sketch vision like the wanderful extention. 
+It is a amazing function. So I try to make a Sketch vision like the wonderful extention. 
 
 ## What I did in this sketch plugin?
 
@@ -22,11 +22,11 @@ Foreach layers except the `symbol` element.
 
 `ctrl alt cmd t`
 
-show the frame with a 'rgba(0,0,0,0.1)' shape
+show the frame with a `rgba(0,0,0,0.1)` shape
 
 `ctrl alt cmd b`
 
-show the frame with a 'rgba(0,255,255,0.8)' border
+show the frame with a `rgba(0,255,255,0.8)` border
 
 `ctrl alt cmd z`
 
