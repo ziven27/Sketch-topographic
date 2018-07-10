@@ -1,4 +1,5 @@
 import Common from './_/Common.js';
+import clear from './_/Clear.js';
 
 function showBoundingBox() {
 	new Common({
@@ -7,12 +8,6 @@ function showBoundingBox() {
 }
 
 function showTopographic() {
-	new Common({
-		showType: 2
-	});
-}
-
-function clear() {
 	new Common({
 		showType: 0
 	});

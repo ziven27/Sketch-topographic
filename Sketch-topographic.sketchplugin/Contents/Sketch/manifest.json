@@ -10,21 +10,21 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "BoundingBox/显示边框",
+      "name": "BoundingBox / 显示边框",
       "script": "main.js",
       "shortcut": "ctrl alt cmd b",
       "identifier": "showBoundingBoxIdentifier",
       "handler": "showBoundingBox"
     },
     {
-      "name": "Topographic/显示地貌",
+      "name": "Topographic / 显示地貌",
       "script": "main.js",
       "shortcut": "ctrl alt cmd t",
       "identifier": "showTopographicIdentifier",
       "handler": "showTopographic"
     },
     {
-      "name": "clear/清除",
+      "name": "Clear / 清除",
       "script": "main.js",
       "shortcut": "ctrl alt cmd z",
       "identifier": "clearIdentifier",
@@ -32,7 +32,7 @@
     }
   ],
   "menu": {
-    "title": "Struct/结构",
+    "title": "Topographic",
     "items": [
       "showBoundingBoxIdentifier",
       "showTopographicIdentifier",
