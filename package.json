@@ -1,5 +1,5 @@
 {
-  "name": "Sketch-topographic",
+  "name": "Topographic",
   "version": "3.0.2-0",
   "description": "Display Topographic Information",
   "repository": "git@github.com:ziven27/Sketch-topographic.git",
@@ -8,9 +8,12 @@
     "sketch": ">=3.0"
   },
   "skpm": {
-    "name": "Sketch-topographic",
+    "name": "Topographic",
     "manifest": "src/manifest.json",
-    "main": "Sketch-topographic.sketchplugin"
+    "main": "plugin.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
   },
   "scripts": {
     "build": "skpm-build",
@@ -19,6 +22,6 @@
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.3.0"
+    "@skpm/builder": "^0.5.2"
   }
 }
