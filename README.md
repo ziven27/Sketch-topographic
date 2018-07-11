@@ -4,19 +4,19 @@ Display Topographic Information.
 
 ## webdeveloper extention
 
-![webdevelpoer](./assets/webdeveloper.png)
+![webdevelpoer](./img/webdeveloper.png)
 
 Ideas form chrome extention [webdeveloper](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=zh-CN).
 
 When you choose the `Display Topographic Information` you can see the struct of the page like below. That can check your page is align well like what you want.
 
-![webdevelpoer-demo](./assets/webdeveloper-demo.jpg)
+![webdevelpoer-demo](./img/webdeveloper-demo.jpg)
 
 It is a amazing function. So I try to make a Sketch vision like the wonderful extention. 
 
 ## What I did in this sketch plugin?
 
-![sketch-demo](./assets/sketch-demo.jpg)
+![sketch-demo](./img/sketch-demo.jpg)
 
 Foreach layers except the `symbol` element.
 
