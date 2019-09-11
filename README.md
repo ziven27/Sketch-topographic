@@ -2,6 +2,12 @@
 
 Display Topographic Information.
 
+## Installation
+
+- [Download](../../releases/latest/download/plugin.sketchplugin.zip) the latest release of the plugin
+- unzip and double click on the plugin.sketchplugin
+
+
 ## webdeveloper extension
 
 ![webdevelpoer](./img/webdeveloper.png)
